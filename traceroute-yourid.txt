@@ -1,0 +1,6 @@
+When using tracert in cmd from oslomet you get 15 lines showing the connection route. 
+The first line contains "2001:700:710::1" which is the IP address of my current connection (Eduroam)
+the next few lines contain oslomet connections.
+line nr 5 contains tullin-gw1.uninett.no [2001:700:0:2041::1] which i assume to be a local connection point (tullinløkka is just down the street)
+The next connections go through nordunet, a company responsible for connection points used by nordic educational institutions.
+the ending line contains "arn09s22-in-x04.1e100.net [2a00:1450:400f:801::2004]" which is the US remote host for google.com located in Ireland. By default I got what looks like ipv6 addresses. 

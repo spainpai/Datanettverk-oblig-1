@@ -1,0 +1,14 @@
+Task 3.1.1:
+1. oslomet.no
+minimum: 2ms, average: 6.3ms , maximum: 22ms 
+2. ox.ac.uk
+minimum: 2ms, average: 4ms, maximum: 10ms
+3. gaia.cs.umass.edu
+10 packets sent, 0 received, 100% packet loss
+4. sydney.edu.au
+minimum: 2ms, average: 8ms, maximum: 47ms 
+
+Task 3.1.2:
+There is no difference in minimum roundtrip time for all of these sites, with the exception of gaia that had all requests timed out. Sites 1, 3, and 4 are all university sites - they are all probably using eduroam as their internet hotspot provider (https://eduroam.org/). As for why I couldn't ping gaia: assumed that the website is designed to not respond to pings. 
+
+
